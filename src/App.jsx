@@ -129,8 +129,10 @@ const Step = () => {
 
 const App = () => (
   <Provider store={createStore(reducer, defaultState)}>
-    <Step />
-    <Counter />
+    <div style={{ padding: "32px" }}>
+      <Step />
+      <Counter />
+    </div>
   </Provider>
 );
 
