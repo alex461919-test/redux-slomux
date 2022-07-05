@@ -8,6 +8,8 @@ Slomux — упрощённая, сломанная реализация Flux.
 
 ## Available Scripts
 
+https://alex461919-test.github.io/redux-slomux/
+
 In the project directory, you can run:
 
 ### `npm start`
