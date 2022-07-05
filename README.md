@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Тестовое задание
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Slomux — упрощённая, сломанная реализация Flux.
+
+Перед тобой небольшое приложение, написанное на React + Slomux: https://codepen.io/csssr/pen/QPyPrz?editors=1010
+
+Исправь ошибки и потенциально проблемный код, почини приложение. Предусмотри возможность использования Slomux в больших проектах, где крайне важна производительность работы. Прокомментируй своё решение.
 
 ## Available Scripts
 
