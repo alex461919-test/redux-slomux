@@ -6,7 +6,7 @@ const ReactReduxContext = React.createContext(null);
 
 export const createStore = (reducer, initialState) => {
   let currentState = initialState;
-  const listeners = [];
+  const listeners = new Set();
 
   const getState = () => currentState;
   const dispatch = (action) => {
@@ -15,10 +15,9 @@ export const createStore = (reducer, initialState) => {
   };
 
   const subscribe = (listener) => {
-    listeners.push(listener);
+    listeners.add(listener);
     return () => {
-      const index = listeners.indexOf(listener);
-      listeners.splice(index, 1);
+      listeners.delete(listener);
     };
   };
 
